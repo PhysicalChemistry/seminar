@@ -63,7 +63,7 @@ function myFunction() {
 	var sentence = sentence_list[sentence_num];
 	while (sentence.includes("x") || sentence.includes("yy")) {
 		var word_num = Math.floor(Math.random() * 14);
-		var word_conj_num = Math.floor(Math.random() * 10);
+		var word_conj_num = Math.floor(Math.random() * 11);
 		var word = words_list[word_num];
 		var conj_word = words_conj_list[word_conj_num];
 		sentence = sentence.replace("x", word);
